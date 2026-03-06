@@ -2,22 +2,20 @@
 
 **Kiroku** is a clean, minimalist desktop application built to track your Anime and Manga progression. Designed with a professional dark-themed aesthetic, it serves as a lightweight, distraction-free alternative to bloated web-based trackers.
 
-!
+![Kiroku Preview](KirokuApp.png)
 
 ## 🚀 Features
 
-* **Dual Tracking**: Separate dedicated sections for Anime (watching) and Manga (reading).
+* **Dual Tracking**: Separate dedicated sections for Anime (watching) and Manga (reading) to keep your media organized.
 * **Modern Interface**: Features a "Kiroku" dark-themed aesthetic using Deep Navy and Slate Grey palettes, inspired by professional UI design principles.
-* **Smart Navigation**: Built with `CardLayout` to provide a seamless, non-intrusive navigation experience without cluttering the UI with extra tabs.
-* **Clean Code Architecture**: Follows a robust 3-class structure (`Main`, `AnimeSection`, `MangaSection`) with a centralized `Theme` class for consistent styling.
-
-!
+* **Smart Navigation**: Built with `CardLayout` to provide a seamless, non-intrusive navigation experience, allowing you to switch contexts instantly without cluttering the UI.
+* **Clean Code Architecture**: Follows a robust 3-class modular structure (`Main`, `AnimeSection`, `MangaSection`) with a centralized `Theme` class for consistent styling and maintainability.
 
 ## 🛠️ Technical Stack
 
 * **Language**: Java
 * **GUI Framework**: Java Swing & AWT
-* **Design Pattern**: Controller-View separation via `CardLayout` and modular class design.
+* **Design Pattern**: Controller-View separation using `CardLayout` and modular class design.
 
 ## 🏗️ Project Structure
 
