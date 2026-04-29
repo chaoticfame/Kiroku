@@ -1,6 +1,6 @@
 # Kiroku 📖
 
-**Kiroku** is a clean, minimalist desktop application built to track your Anime and Manga progression. Designed with a professional dark-themed aesthetic, it serves as a lightweight, distraction-free alternative to bloated web-based trackers.
+**Kiroku** is a robust, lightweight, clean, minimalist desktop application built to track your Anime and Manga progression. Designed with a professional dark-themed aesthetic, it serves as a lightweight, distraction-free alternative to bloated web-based trackers.
 
 ![Kiroku Preview](KirokuApp.png)
 
