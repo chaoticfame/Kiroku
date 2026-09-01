@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080c14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b2438;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3754;
+}
+
+/* Craft Design Surfaces */
+.surface-root {
+  background-color: #080c14;
+}
+
+.surface-card {
+  background-color: #0f172a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.surface-card:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.surface-raised {
+  background-color: #141f36;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.surface-input {
+  background-color: #0b1120;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.surface-input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+/* Tabular Numerals for metrics, stats, progress */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Smooth Focus Ring */
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
